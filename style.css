@@ -2,13 +2,19 @@ body {
     font-family: sans-serif;
   }
   
+.user-msg {
+  background-color: #0d6efd;  /* Cor azul Bootstrap */
+  color: #fff;
+}  
   
-  .user-msg {
-    background-color: #0d6efd;  /* Cor azul Bootstrap */
-    color: #fff;
-  }  
+.bot-msg {
+  background-color: #f1f1f1;
+}
   
-  .bot-msg {
-    background-color: #f1f1f1;
-  }
-  
+.logo-header {
+  filter: invert(100%);
+}
+
+.chat-card {
+  padding-top: .5%;
+}
