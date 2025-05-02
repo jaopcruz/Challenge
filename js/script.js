@@ -15,7 +15,7 @@ function suggestion1() {
 function suggestion2() {
   addMessage("Quais as redes sociais dos jogadores?", "user");
   setTimeout(() => {
-    addMessage("Olá\nfodase", "bot");
+    addMessage("Os perfis são: @fallen, @yuurihfps, @kscerato, @yek1ndar, @danil.molodoy_ e @siddecs.", "bot");
   }, 500);
 }
 
@@ -63,7 +63,7 @@ function addMessage(text, sender) {
   // Criação da imagem do bot
   if (sender === "bot") {
     const img = document.createElement("img");
-    img.src = "images/folen.webp"; // Caminho da imagem do bot
+    img.src = "assets/images/folen.webp"; // Caminho da imagem do bot
     img.alt = "Bot";
     img.classList.add("rounded-circle");
     img.style.width = "45px";
