@@ -15,7 +15,7 @@ function suggestion1() {
 function suggestion2() {
   addMessage("Quais as redes sociais dos jogadores?", "user");
   setTimeout(() => {
-    addMessage("Os perfis são: @fallen, @yuurihfps, @kscerato, @yek1ndar, @danil.molodoy_ e @siddecs.", "bot");
+    addMessage("Os perfis do instagram são: @fallen, @yuurihfps, @kscerato, @yek1ndar, @danil.molodoy_ e @siddecs.", "bot");
   }, 500);
 }
 
@@ -33,7 +33,7 @@ function suggestion4() {
   addMessage("Quando vai ser o próximo jogo da FURIA?", "user");
   setTimeout(() => {
     addMessage(
-      "O próximo jogo da FURIA será no dia 10 de maio pelo campeonato PGL Astana 2025, o adversário ainda será definido.",
+      "O próximo jogo da FURIA será no dia 10 de maio pelo campeonato PGL Astana 2025, o adversário será o time The Mongolz.",
       "bot"
     );
   }, 500);
